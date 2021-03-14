@@ -70,8 +70,10 @@ button {
     overflow-x: auto;
 }
 
-/* @media screen and (max-width: 0px) {
-    #chosenrecipe h2 {
-        text-align: center;
-    }
-} */
+.content {
+    padding: 1em;
+}
+
+#one section {
+    justify-content: center;
+}
