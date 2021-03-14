@@ -2,3 +2,12 @@ h1, h2 {
     text-align: center;
 }
 
+.inner {
+    padding-left: 50px;
+}
+
+@media screen and (min-width: 1282px) {
+    .inner {
+        padding-top: 30px;
+    }
+}
