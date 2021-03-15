@@ -2,12 +2,12 @@ h1, h2, .dineordash {
     text-align: center;
 }
 
-.inner {
+#sidebar .inner {
     padding-left: 42px;
 }
 
 @media screen and (min-width: 1282px) {
-    .inner {
+    #sidebar .inner {
         padding-top: 30px;
     }
     #sidebar {
@@ -71,7 +71,7 @@ button {
 }
 
 .content {
-    padding: 1em;
+    padding: 2em 0;
 }
 
 #one section {
@@ -91,5 +91,9 @@ button {
 }
 
 #twopanels {
+    padding: 0;
+}
+
+.content .inner {
     padding: 0;
 }
