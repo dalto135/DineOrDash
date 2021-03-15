@@ -77,3 +77,19 @@ button {
 #one section {
     justify-content: center;
 }
+
+#dineordashdesc {
+    text-align: center;
+}
+
+.features {
+    margin: 0;
+}
+
+#two {
+    padding: 2em;
+}
+
+#twopanels {
+    padding: 0;
+}
