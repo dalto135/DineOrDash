@@ -6,8 +6,10 @@ https://dalto135.github.io/Dine_Or_Dash/
 ## Technologies
 HTML, CSS, Javascript, Hyperspace CSS Framework
 
-## Screenshots
+## Screenshot
 ![Dine Or Dash Main Screen](https://user-images.githubusercontent.com/74032335/111031288-cc5ec380-83d4-11eb-8e7f-f9de00e43330.PNG)
+
+## Gif
 ![Dine Or Dash GIF Master](https://user-images.githubusercontent.com/74032335/111031196-42165f80-83d4-11eb-828f-278e7b8efd96.gif)
 
 ## Description
