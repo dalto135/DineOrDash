@@ -1,5 +1,9 @@
 # DineOrDash
 
+https://dalto135.github.io/Dine_Or_Dash/
+
+Technologies: HTML, CSS, Javascript, Hyperspace CSS Framework
+
 ![Dine Or Dash Main Screen](https://user-images.githubusercontent.com/74032335/111031288-cc5ec380-83d4-11eb-8e7f-f9de00e43330.PNG)
 
 
@@ -48,6 +52,11 @@ This program also stores your past 5 searches, so you can revisit your favorite 
 
 - - -
 
-https://dalto135.github.io/Dine_Or_Dash/
+License: MIT
+
+Collaborators:
+Dalton Wilkins - wilkins.271@osu.edu
+Elizabeth Ogbonna
+Sarehon Taylor
 
 © 2021
