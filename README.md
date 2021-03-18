@@ -6,16 +6,15 @@ https://dalto135.github.io/Dine_Or_Dash/
 ## Technologies
 HTML, CSS, Javascript, Hyperspace CSS Framework
 
+## Screenshots
 ![Dine Or Dash Main Screen](https://user-images.githubusercontent.com/74032335/111031288-cc5ec380-83d4-11eb-8e7f-f9de00e43330.PNG)
-
+![Dine Or Dash GIF Master](https://user-images.githubusercontent.com/74032335/111031196-42165f80-83d4-11eb-828f-278e7b8efd96.gif)
 
 ## Description
 Webpage allows the user to choose a main dish based on their zip code,
 then compare a recipe and a restaurant to see if the user would like
 to dine in or eat out at a restaurant of their choice.
 The webpage will locally store the user’s recent searches and selections.
-
-![Dine Or Dash GIF Master](https://user-images.githubusercontent.com/74032335/111031196-42165f80-83d4-11eb-828f-278e7b8efd96.gif)
 
 ## User Story
 ```
