@@ -1,14 +1,15 @@
 # DineOrDash
 
+## Project Link
 https://dalto135.github.io/Dine_Or_Dash/
 
-Technologies: HTML, CSS, Javascript, Hyperspace CSS Framework
+## Technologies
+HTML, CSS, Javascript, Hyperspace CSS Framework
 
 ![Dine Or Dash Main Screen](https://user-images.githubusercontent.com/74032335/111031288-cc5ec380-83d4-11eb-8e7f-f9de00e43330.PNG)
 
 
-## Project Description
-
+## Description
 Webpage allows the user to choose a main dish based on their zip code,
 then compare a recipe and a restaurant to see if the user would like
 to dine in or eat out at a restaurant of their choice.
@@ -17,7 +18,6 @@ The webpage will locally store the user’s recent searches and selections.
 ![Dine Or Dash GIF Master](https://user-images.githubusercontent.com/74032335/111031196-42165f80-83d4-11eb-828f-278e7b8efd96.gif)
 
 ## User Story
-
 ```
 AS A user
 I WANT to see recipes or local options with prices for the entree
@@ -25,7 +25,6 @@ SO THAT I'll know if it makes sense to cook at home or go out to eat, based on t
 ```
 
 ## Functionality
-
 ```
 GIVEN a choice to either make a meal at home or order out
 WHEN I input a food dish and location in the app
@@ -52,9 +51,10 @@ This program also stores your past 5 searches, so you can revisit your favorite 
 
 - - -
 
-License: MIT
+## License
+MIT
 
-Collaborators:
+## Collaborators
 Dalton Wilkins - wilkins.271@osu.edu
 Elizabeth Ogbonna
 Sarehon Taylor
