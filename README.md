@@ -58,6 +58,6 @@ MIT
 ## Collaborators
 Dalton Wilkins - wilkins.271@osu.edu
 Elizabeth Ogbonna - elogtechmail@gmail.com
-Sarehon Taylor
+Sarehon Taylor - sarehontaylor@icloud.com
 
 © 2021
