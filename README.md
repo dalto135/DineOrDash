@@ -56,8 +56,8 @@ This program also stores your past 5 searches, so you can revisit your favorite 
 MIT
 
 ## Collaborators
-Dalton Wilkins - wilkins.271@osu.edu
-Elizabeth Ogbonna - elogtechmail@gmail.com
+Dalton Wilkins - wilkins.271@osu.edu,
+Elizabeth Ogbonna - elogtechmail@gmail.com,
 Sarehon Taylor - sarehontaylor@icloud.com
 
 © 2021
