@@ -55,7 +55,7 @@ This program also stores your past 5 searches, so you can revisit your favorite 
 ## License
 MIT
 
-## Collaborators
+## Contact
 Dalton Wilkins - wilkins.271@osu.edu,
 Elizabeth Ogbonna - elogtechmail@gmail.com,
 Sarehon Taylor - sarehontaylor@icloud.com
