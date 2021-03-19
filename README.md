@@ -1,4 +1,4 @@
-# DineOrDash
+# Dine Or Dash
 
 ## Project Link
 https://dalto135.github.io/Dine_Or_Dash/
