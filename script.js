@@ -161,10 +161,6 @@ function restApi(lat, lon, food) {
             console.log("--");
             console.log("Documenu data:");
             console.log(data);
-
-            // let title = document.createElement("h2");
-            // title.innerHTML = "Restaurant List:";
-            // restDiv.appendChild(title);
             
             for (let i = 0; i < data["data"].length; i++) {
                 let num = i + 1;
