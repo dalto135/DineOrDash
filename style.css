@@ -47,30 +47,21 @@ h1, h2, .dineordash, #recipetitlep {
     text-decoration: underline;
 }
 
-/* #recipetitle {
-    font-size: 200%;
-    font-style: italic;
-    text-decoration: underline;
-} */
-
 #chosenrecipe div p, .recipelist {
+    text-align: start;
+}
+
+button {
     text-align: start;
 }
 
 button, .button {
     padding: 0 2em;
-    /* text-align: start; */
 }
 
 .button {
     background-color: rgba(255, 255, 255, 0.05);
 }
-
-/* #recipehistory {
-    display: flex;
-    flex-direction: column;
-    
-} */
 
 #stepslist {
     padding: 1em;
@@ -130,19 +121,17 @@ button, .button {
 #recipetitle {
     padding: 0;
     margin-bottom: 0.5em;
-    /* background-color: rgba(0, 0, 0, 0.10); */
 }
 
 #oneone, .history {
     display: flex;
     border-radius: 0.25em;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    /* flex-wrap: wrap; */
     background-color: rgba(255, 255, 255, 0.05);
 }
 
 #oneone h3, .history h3 {
-    margin-top: 3.5em;
+    margin-top: 2em;
     text-align: center;
     font-style: italic;
 }
@@ -159,24 +148,16 @@ button, .button {
         border-right:0px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     }
-    /* #oneone .two {
-        height: 500px;
-    }
-    .features section {
-        height: 200px;
-    } */
 }
 
 #oneone .two {
-    /* max-width: 50%; */
     flex: 1 1;
     display: block;
-    /* height: 500px; */
 
 }
 
 .features section {
-    height: 71vh;
+    height: 90vh;
 }
 
 #oneone section .content {
@@ -188,7 +169,14 @@ button, .button {
     padding: 0;
 }
 
+#recipes, #searchhistory, #recipehistory {
+    /* display: flex;
+    flex-direction: column; */
+}
 
+#recipes button, #searchhistory button, #recipehistory button {
+    /* white-space: normal; */
+}
 
 #ingredientsteps {
     display: flex;
@@ -199,11 +187,6 @@ button, .button {
 
 #ingredientsteps section {
     flex: 1 1;
-    /* height: 10px; */
-}
-
-#three {
-    /* justify-content: center; */
 }
 
 #searchdiv {
@@ -216,7 +199,7 @@ button, .button {
 
 #chosenrecipe, #stepslist, #recipes, #restaurants {
     overflow-y: auto;
-    height: 51vh;
+    height: 75vh;
 }
 
 #intro {
