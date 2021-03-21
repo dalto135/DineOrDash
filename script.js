@@ -322,7 +322,7 @@ function ingredientsApi(recipeId) {
 
                     let instrPart = document.createElement("p");
                     instrPart.classList.add("recipelist");
-                    instrPart.innerHTML = num + ": " + instructions[i]["name"];
+                    instrPart.innerHTML = "Part " + num + ": " + instructions[i]["name"];
                     stepsList.appendChild(instrPart);
 
                     let steps = instructions[i]["steps"];
@@ -331,7 +331,7 @@ function ingredientsApi(recipeId) {
 
                         let instr = document.createElement("p");
                         instr.classList.add("recipelist");
-                        instr.innerHTML = ">>>>" + stepsNum + ". " + steps[i]["step"];
+                        instr.innerHTML = stepsNum + ". " + steps[i]["step"];
                         stepsList.appendChild(instr);
                     }
                 }

@@ -88,6 +88,10 @@ button, .button {
 #searchhistorydiv, #recipehistorydiv {
     flex: 1 1;
     padding: 1em;
+    
+}
+
+#recipehistory, #searchhistory {
     overflow-x: auto;
 }
 
