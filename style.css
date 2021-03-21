@@ -19,6 +19,10 @@ h1, h2, .dineordash {
     padding: 3.5em 1em 1em 1em;
 }
 
+#recipes, #restaurants {
+    padding-top: 1em;
+}
+
 .features h3 {
     text-align: center;
 }
@@ -38,6 +42,12 @@ h1, h2, .dineordash {
 }
 
 .chosenfooditem {
+    font-size: 200%;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#recipetitle {
     font-size: 200%;
     font-style: italic;
     text-decoration: underline;
@@ -96,4 +106,70 @@ button {
 
 .content .inner {
     padding: 0;
+}
+
+#one {
+    padding: 1em;
+}
+
+#recipetitle {
+    padding: 0.5em;
+}
+
+#oneone {
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 978px) {
+    #oneone {
+        flex-direction: column;
+    }
+}
+
+#oneone .two {
+    /* max-width: 50%; */
+    flex: 1 1;
+    display: block;
+    
+}
+
+#oneone section .content {
+    padding: 1em;
+}
+
+#chosenrecipe, #stepslist {
+    margin: 0;
+    padding: 0;
+}
+
+#ingredientslist {
+    border-right: 1px solid rgb(126, 146, 255);
+}
+
+#ingredientsteps {
+    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+}
+
+#ingredientsteps section {
+    flex: 1 1;
+    /* height: 10px; */
+}
+
+#three {
+    /* justify-content: center; */
+}
+
+#searchdiv {
+    width: 100%;
+}
+
+#chosenrecipe, #stepslist {
+    overflow-y: auto;
+    height: 800px;
 }
