@@ -26,8 +26,8 @@ if (localArray !== null) {
         buttonSearch.addEventListener("click", function() {
             recipeDiv.innerHTML = "";
             restDiv.innerHTML = "";
-            chosenRecipe.innerHTML = "";
-            stepsList.innerHTML = "";
+            // chosenRecipe.innerHTML = "";
+            // stepsList.innerHTML = "";
             area.value = array[i][0];
             food.value = array[i][1];
             recipeApi(food.value);
@@ -74,8 +74,8 @@ button.addEventListener("click", function() {
 
     restDiv.innerHTML = "";
     coords(area.value, food.value);
-    chosenRecipe.innerHTML = "";
-    stepsList.innerHTML = "";
+    // chosenRecipe.innerHTML = "";
+    // stepsList.innerHTML = "";
     
 });
 
@@ -212,11 +212,7 @@ function recipeApi(food) {
             console.log("Recipes data:");
             console.log(data);
 
-            recipeTitle.innerHTML = "Chosen Recipe";
-            
-            // let recipeList = document.createElement("h2");
-            // recipeList.innerHTML = "Recipe List:";
-            // recipeDiv.appendChild(recipeList);
+            // recipeTitle.innerHTML = "Chosen Recipe";
 
             for (let i = 0; i < data["results"].length; i++) {
                 let num = i + 1;
@@ -285,21 +281,11 @@ function ingredientsApi(recipeId) {
 
             chosenRecipe.innerHTML = "";
             stepsList.innerHTML = "";
-
-            // let foodItem = document.createElement("h2");
-            // foodItem.innerHTML = data["title"];
-            // foodItem.classList.add("chosenfooditem");
-            // chosenRecipe.appendChild(foodItem);
             
             recipeTitle.innerHTML = data["title"];
 
-
             let ingredientsList = document.createElement("div");
             chosenRecipe.appendChild(ingredientsList);
-
-            // let ingredientsH2 = document.createElement("h2");
-            // ingredientsH2.innerHTML = "Ingredients List:";
-            // ingredientsList.appendChild(ingredientsH2);
 
             let ingredients = data["extendedIngredients"];
             for (let i = 0; i < ingredients.length; i++) {
@@ -310,10 +296,6 @@ function ingredientsApi(recipeId) {
                 pIngredient.innerHTML = ingrNum + ". " + ingredients[i]["original"];
                 ingredientsList.appendChild(pIngredient);
             }
-
-            // let recipeSteps = document.createElement("h2");
-            // recipeSteps.innerHTML = "Recipe Steps:";
-            // stepsList.appendChild(recipeSteps);
 
             let instructions = data["analyzedInstructions"];
             if (instructions.length > 1) {

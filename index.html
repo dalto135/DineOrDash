@@ -20,6 +20,7 @@
 						<ul>
 							<li><a href="#intro">Home</a></li>
 							<li><a href="#two">Dine Or Dash Results</a></li>
+							<li><a href="#one">Chosen Recipe</a></li>
 							<li><a href="#three">Recent Searches</a></li>
 							<li><a href="aboutus.html">About Us</a></li>
 						</ul>
@@ -35,7 +36,7 @@
 						<div class="inner">
 							<h1>Dine or Dash</h1>
 							<form>
-                                <input type="text" id="location" placeholder="Enter Your Location (City/State Or Zip Code)"><br>
+                                <input type="text" id="location" placeholder="Enter Your Location (Address/City/Zip Code)"><br>
 							  <input type="text" id="food" placeholder="Enter Your Favorite Food Here &#128512">
 							</form> 
 
@@ -55,13 +56,13 @@
                             <section>
                                 <span class="icon solid major fas fa-carrot"></span>
                                     <h3><em>Recipes (Dine In)</em></h3>
-                                    <div id="recipes"style='overflow-y: auto; height: 800px;' ></div>
+                                    <div id="recipes"></div>
                             </section>
 
                             <section>
                                 <span class="icon solid major fas fa-hand-holding-usd"></span>
                                     <h3><em>Restaurants (Dash Out)</em></h3>
-                                    <div id="restaurants" style='overflow-y: auto; height: 800px;'></div>
+                                    <div id="restaurants"></div>
                             </section>
                         </div>
 					</div>
@@ -71,7 +72,7 @@
 				
 				<section id="one" class="wrapper style2 spotlights">
 					<h2 id="recipetitle">Chosen Recipe</h2>
-					
+					<p id="recipetitlep">Everything You Need To Prepare Your Dish</p>
 					<section id="oneone">
 
 						<section class="two" id="ingredientslist">
@@ -103,12 +104,12 @@
 
 					<section id="three" class="wrapper style1 fade-up" id="history">
 						<div class="inner" id="searchdiv">
-							<h2>Recent Searches</h2>
+							<h2 id="recentsearches">Recent Searches</h2>
 							<p>Look Through Your Recent Searches And Selected Recipes.</p>
-							<div class="split style1">
+							<div class="split style1 history">
 								<section id="searchhistorydiv">
 									<div method="post" action="#">
-                                        <h3>LAST 5 SEARCHES:</h3>
+                                        <h3>Last 5 Searches</h3>
 										<div id="searchhistory"></div>
 										<ul class="actions">
 										<li><a href="" class="button submit" id="clear">Clear Searches</a></li>
@@ -118,7 +119,7 @@
 
 								<section id="recipehistorydiv">
 									<div class="contact">
-										<h3>LAST 5 RECIPES SELECTED:</h3>
+										<h3>Last 5 Recipes Selected</h3>
 										<div id="recipehistory"></div>
 										<ul class="actions">
 										<li><a href="" class="button submit" id="clearrecipe">Clear Searches</a></li>

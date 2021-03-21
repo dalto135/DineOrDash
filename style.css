@@ -1,4 +1,4 @@
-h1, h2, .dineordash {
+h1, h2, .dineordash, #recipetitlep {
     text-align: center;
 }
 
@@ -77,8 +77,7 @@ button, .button {
 }
 
 #searchdiv {
-    padding: 0;
-    padding-top: 1em;
+    padding: 1em 2em 2em 2em;
 }
 
 #searchdiv p, #searchhistorydiv h3, #recipehistorydiv h3 {
@@ -93,6 +92,7 @@ button, .button {
 
 #recipehistory, #searchhistory {
     overflow-x: auto;
+    margin-top: 1.5em;
 }
 
 .content {
@@ -129,11 +129,11 @@ button, .button {
 
 #recipetitle {
     padding: 0;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     /* background-color: rgba(0, 0, 0, 0.10); */
 }
 
-#oneone {
+#oneone, .history {
     display: flex;
     border-radius: 0.25em;
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -141,7 +141,7 @@ button, .button {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-#oneone h3 {
+#oneone h3, .history h3 {
     margin-top: 3.5em;
     text-align: center;
     font-style: italic;
@@ -152,21 +152,31 @@ button, .button {
 }
 
 @media screen and (max-width: 978px) {
-    #oneone {
+    #oneone, .history {
         flex-direction: column;
-
     }
-    #ingredientslist {
+    #ingredientslist, .history {
         border-right:0px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     }
+    /* #oneone .two {
+        height: 500px;
+    }
+    .features section {
+        height: 200px;
+    } */
 }
 
 #oneone .two {
     /* max-width: 50%; */
     flex: 1 1;
     display: block;
-    
+    /* height: 500px; */
+
+}
+
+.features section {
+    height: 71vh;
 }
 
 #oneone section .content {
@@ -200,7 +210,15 @@ button, .button {
     width: 100%;
 }
 
-#chosenrecipe, #stepslist {
+#recentsearches {
+    margin-top: 0.5em;
+}
+
+#chosenrecipe, #stepslist, #recipes, #restaurants {
     overflow-y: auto;
-    height: 800px;
+    height: 51vh;
+}
+
+#intro {
+    height: 100vh;
 }
