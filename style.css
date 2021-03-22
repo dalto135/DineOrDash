@@ -68,7 +68,7 @@ button, .button {
 }
 
 #searchdiv {
-    padding: 1em 2em 2em 2em;
+    padding: 2em;
 }
 
 #searchdiv p, #searchhistorydiv h3, #recipehistorydiv h3 {
@@ -82,8 +82,7 @@ button, .button {
 }
 
 #recipehistory, #searchhistory {
-    overflow-x: auto;
-    margin-top: 1.5em;
+    padding-top: 1em;
 }
 
 .content {
@@ -120,7 +119,6 @@ button, .button {
 
 #recipetitle {
     padding: 0;
-    margin-bottom: 0.5em;
 }
 
 #oneone, .history {
@@ -131,7 +129,7 @@ button, .button {
 }
 
 #oneone h3, .history h3 {
-    margin-top: 2em;
+    margin-top: 1em;
     text-align: center;
     font-style: italic;
 }
@@ -153,7 +151,10 @@ button, .button {
 #oneone .two {
     flex: 1 1;
     display: block;
+}
 
+.two {
+    padding: 1em;
 }
 
 .features section {
@@ -161,7 +162,8 @@ button, .button {
 }
 
 #oneone section .content {
-    padding: 1em;
+    padding: 0;
+    padding-top: 1em;
 }
 
 #chosenrecipe, #stepslist {
@@ -170,12 +172,14 @@ button, .button {
 }
 
 #recipes, #searchhistory, #recipehistory {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }
 
 #recipes button, #searchhistory button, #recipehistory button {
-    /* white-space: normal; */
+    white-space: normal;
+    height: auto;
 }
 
 #ingredientsteps {
@@ -191,10 +195,6 @@ button, .button {
 
 #searchdiv {
     width: 100%;
-}
-
-#recentsearches {
-    margin-top: 0.5em;
 }
 
 #chosenrecipe, #stepslist, #recipes, #restaurants {
