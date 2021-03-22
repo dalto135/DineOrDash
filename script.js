@@ -26,8 +26,6 @@ if (localArray !== null) {
         buttonSearch.addEventListener("click", function() {
             recipeDiv.innerHTML = "";
             restDiv.innerHTML = "";
-            // chosenRecipe.innerHTML = "";
-            // stepsList.innerHTML = "";
             area.value = array[i][0];
             food.value = array[i][1];
             recipeApi(food.value);
@@ -74,9 +72,6 @@ button.addEventListener("click", function() {
 
     restDiv.innerHTML = "";
     coords(area.value, food.value);
-    // chosenRecipe.innerHTML = "";
-    // stepsList.innerHTML = "";
-    
 });
 
 //Adds the input items to localStorage and search history
@@ -211,8 +206,6 @@ function recipeApi(food) {
         .then(data => {
             console.log("Recipes data:");
             console.log(data);
-
-            // recipeTitle.innerHTML = "Chosen Recipe";
 
             for (let i = 0; i < data["results"].length; i++) {
                 let num = i + 1;
