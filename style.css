@@ -82,7 +82,7 @@ button, .button {
 }
 
 #recipehistory, #searchhistory {
-    padding-top: 1em;
+    margin: 1em 0;
 }
 
 .content {
@@ -158,7 +158,7 @@ button, .button {
 }
 
 .features section {
-    height: 90vh;
+    
 }
 
 #oneone section .content {
@@ -171,10 +171,21 @@ button, .button {
     padding: 0;
 }
 
+#recipes, #restaurants, #chosenrecipe, #stepslist, #searchhistory, #recipehistory {
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
 #recipes, #searchhistory, #recipehistory {
     display: flex;
+}
+
+#recipes {
     flex-direction: column;
-    overflow-y: auto;
+}
+
+#searchhistory, #recipehistory {
+    flex-direction: column-reverse;
 }
 
 #recipes button, #searchhistory button, #recipehistory button {
@@ -197,10 +208,11 @@ button, .button {
     width: 100%;
 }
 
-#chosenrecipe, #stepslist, #recipes, #restaurants {
+/* #chosenrecipe, #stepslist {
     overflow-y: auto;
-    height: 75vh;
-}
+    max-height: 75vh;
+} */
+/* #recipes, #restaurants */
 
 #intro {
     height: 100vh;

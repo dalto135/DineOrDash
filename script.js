@@ -88,7 +88,7 @@ button.addEventListener("click", function() {
         array.push(entry);
     }
     
-    while (array.length > 5) {
+    while (array.length > 10) {
         array.shift();
     }
     localStorage.setItem("restaurants", JSON.stringify(array));
@@ -233,7 +233,7 @@ function recipeApi(food) {
                     }
 
                     
-                    while (recipeArray.length > 5) {
+                    while (recipeArray.length > 10) {
                         recipeArray.shift();
                     }
                     localStorage.setItem("recipes", JSON.stringify(recipeArray));
