@@ -167,23 +167,23 @@ function restApi(lat, lon, food) {
                 div.appendChild(pNum);
 
                 let pFood = document.createElement("p");
-                pFood.innerHTML = "   Food: " + data["data"][i]["menu_item_name"];
+                pFood.innerHTML = "Food: " + data["data"][i]["menu_item_name"];
                 div.appendChild(pFood);
 
                 let pDesc = document.createElement("p");
-                pDesc.innerHTML = "   Description: " + data["data"][i]["menu_item_description"];
+                pDesc.innerHTML = "Description: " + data["data"][i]["menu_item_description"];
                 div.appendChild(pDesc);
 
                 let pPrice = document.createElement("p");
-                pPrice.innerHTML = "   Price: " + data["data"][i]["menu_item_pricing"][0]["priceString"];
+                pPrice.innerHTML = "Price: " + data["data"][i]["menu_item_pricing"][0]["priceString"];
                 div.appendChild(pPrice);
 
                 let pRest = document.createElement("p");
-                pRest.innerHTML = "   Restaurant: " + data["data"][i]["restaurant_name"];
+                pRest.innerHTML = "Restaurant: " + data["data"][i]["restaurant_name"];
                 div.appendChild(pRest);
 
                 let pAddy = document.createElement("p");
-                pAddy.innerHTML = "   Address: " + data["data"][i]["address"]["formatted"];
+                pAddy.innerHTML = "Address: " + data["data"][i]["address"]["formatted"];
                 div.appendChild(pAddy);
 
                 restDiv.appendChild(div);
@@ -277,17 +277,14 @@ function ingredientsApi(recipeId) {
             
             recipeTitle.innerHTML = data["title"];
 
-            let ingredientsList = document.createElement("div");
-            chosenRecipe.appendChild(ingredientsList);
-
             let ingredients = data["extendedIngredients"];
             for (let i = 0; i < ingredients.length; i++) {
                 let ingrNum = i + 1;
-
                 let pIngredient = document.createElement("p");
+
                 pIngredient.classList.add("ingredient");
                 pIngredient.innerHTML = ingrNum + ". " + ingredients[i]["original"];
-                ingredientsList.appendChild(pIngredient);
+                chosenRecipe.appendChild(pIngredient);
             }
 
             let instructions = data["analyzedInstructions"];

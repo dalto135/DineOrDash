@@ -20,7 +20,7 @@ h1, h2, .dineordash, #recipetitlep {
 }
 
 #recipes, #restaurants {
-    padding-top: 1em;
+    margin-top: 1.5em;
 }
 
 .features h3 {
@@ -41,18 +41,10 @@ h1, h2, .dineordash, #recipetitlep {
     padding: 6px;
 }
 
-.chosenfooditem {
-    font-size: 200%;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-#chosenrecipe div p, .recipelist {
-    text-align: start;
-}
-
 button {
     text-align: start;
+    white-space: normal;
+    height: auto;
 }
 
 button, .button {
@@ -157,10 +149,6 @@ button, .button {
     padding: 1em;
 }
 
-.features section {
-    
-}
-
 #oneone section .content {
     padding: 0;
     padding-top: 1em;
@@ -188,18 +176,6 @@ button, .button {
     flex-direction: column-reverse;
 }
 
-#recipes button, #searchhistory button, #recipehistory button {
-    white-space: normal;
-    height: auto;
-}
-
-#ingredientsteps {
-    display: flex;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid white;
-}
-
 #ingredientsteps section {
     flex: 1 1;
 }
@@ -207,12 +183,6 @@ button, .button {
 #searchdiv {
     width: 100%;
 }
-
-/* #chosenrecipe, #stepslist {
-    overflow-y: auto;
-    max-height: 75vh;
-} */
-/* #recipes, #restaurants */
 
 #intro {
     height: 100vh;
