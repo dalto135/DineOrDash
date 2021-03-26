@@ -211,6 +211,7 @@ function recipeApi(food) {
                 let num = i + 1;
 
                 let bRecipe = document.createElement("button");
+                bRecipe.setAttribute("href", "#one");
                 bRecipe.classList.add("recipebutton");
                 bRecipe.innerHTML = num + ". " + data["results"][i]["title"];
                 recipeDiv.appendChild(bRecipe);

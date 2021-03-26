@@ -41,13 +41,13 @@ h1, h2, .dineordash, #recipetitlep {
     padding: 6px;
 }
 
-button {
+a, button {
     text-align: start;
     white-space: normal;
     height: auto;
 }
 
-button, .button {
+a, button, .button {
     padding: 0 2em;
 }
 
