@@ -19,8 +19,10 @@ if (localArray !== null) {
     array = JSON.parse(localArray);
 
     for (let i = 0; i < array.length; i++) {
-        let buttonSearch = document.createElement("button");
+        let buttonSearch = document.createElement("a");
         buttonSearch.innerHTML = "Location: " + array[i][0] + ", Food: " + array[i][1];
+        buttonSearch.setAttribute("href", "#two");
+        buttonSearch.classList.add("button");
         historyDiv.appendChild(buttonSearch);
 
         buttonSearch.addEventListener("click", function() {
@@ -41,8 +43,11 @@ if (localRecipe !== null) {
     recipeArray = JSON.parse(localRecipe);
 
     for (let i = 0; i < recipeArray.length; i++) {
-        let recipeButton = document.createElement("button");
+        let recipeButton = document.createElement("a");
         recipeButton.innerHTML = recipeArray[i][0];
+        recipeButton.setAttribute("href", "#one");
+        recipeButton.classList.add("button");
+        recipeButton.classList.add("scrolly");
         recipeHisDiv.appendChild(recipeButton);
 
         recipeButton.addEventListener("click", function() {
@@ -95,8 +100,10 @@ button.addEventListener("click", function() {
     historyDiv.innerHTML = "";
 
     for (let i = 0; i < array.length; i++) {
-        let buttonSearch = document.createElement("button");
+        let buttonSearch = document.createElement("a");
         buttonSearch.innerHTML = "Location: " + array[i][0] + ", Food: " + array[i][1];
+        buttonSearch.setAttribute("href", "#two");
+        buttonSearch.classList.add("button");
         historyDiv.appendChild(buttonSearch);
 
         buttonSearch.addEventListener("click", function() {
@@ -210,17 +217,17 @@ function recipeApi(food) {
             for (let i = 0; i < data["results"].length; i++) {
                 let num = i + 1;
 
-                let bRecipe = document.createElement("button");
+                let bRecipe = document.createElement("a");
                 bRecipe.setAttribute("href", "#one");
                 bRecipe.classList.add("recipebutton");
+                //
+                bRecipe.classList.add("button");
                 bRecipe.innerHTML = num + ". " + data["results"][i]["title"];
                 recipeDiv.appendChild(bRecipe);
 
                 let recipeId = data["results"][i]["id"];
 
                 bRecipe.addEventListener("click", function() {
-
-
                     let boo = false;
                     let entry = [data["results"][i]["title"], recipeId];
                     for (let i = 0; i < recipeArray.length; i++) {
@@ -233,7 +240,6 @@ function recipeApi(food) {
                         recipeArray.push(entry);
                     }
 
-                    
                     while (recipeArray.length > 10) {
                         recipeArray.shift();
                     }
@@ -241,8 +247,11 @@ function recipeApi(food) {
                     recipeHisDiv.innerHTML = "";
 
                     for (let j = 0; j < recipeArray.length; j++) {
-                        let recipeP = document.createElement("button");
+                        let recipeP = document.createElement("a");
                         recipeP.innerHTML = recipeArray[j][0];
+                        recipeP.setAttribute("href", "#one");
+                        //
+                        recipeP.classList.add("button");
                         recipeHisDiv.appendChild(recipeP);
 
                         recipeP.addEventListener("click", function() {
