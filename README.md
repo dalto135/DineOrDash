@@ -16,7 +16,7 @@
 [Contact](#Contact)
 
 ## Link
-https://dalto135.github.io/Dine_Or_Dash/
+https://dalto135.github.io/dine-or-dash/
 
 ## Technologies
 HTML, CSS, Javascript, Hyperspace CSS Framework
