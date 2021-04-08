@@ -38,7 +38,7 @@ h1, h2, .dineordash, #recipetitlep {
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 25px;
     margin-bottom: 1px;
-    padding: 6px;
+    padding: 1em;
 }
 
 a, button {
