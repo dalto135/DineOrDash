@@ -197,7 +197,7 @@ function restApi(lat, lon, food) {
             }
         })
         .catch(err => {
-            console.error(err);
+            console.error(err.message);
         });
 }
 
@@ -264,7 +264,7 @@ function recipeApi(food) {
             }            
         }) 
         .catch(err => {
-            console.error(err);
+            console.error(err.message);
     });
 }
 
@@ -337,6 +337,6 @@ function ingredientsApi(recipeId) {
             }
         }) 
         .catch(err => {
-            console.error(err);
+            console.error(err.message);
         });
 }
