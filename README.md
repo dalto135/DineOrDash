@@ -19,7 +19,7 @@
 https://dalto135.github.io/dine-or-dash/
 
 ## Technologies
-HTML, CSS, Javascript, Hyperspace CSS Framework
+HTML, CSS, Javascript, Hyperspace CSS Framework, API Integration
 
 ## Screenshot
 ![Dine Or Dash Main Screen](https://user-images.githubusercontent.com/74032335/111031288-cc5ec380-83d4-11eb-8e7f-f9de00e43330.PNG)
@@ -28,10 +28,7 @@ HTML, CSS, Javascript, Hyperspace CSS Framework
 ![Dine Or Dash GIF Master](https://user-images.githubusercontent.com/74032335/111031196-42165f80-83d4-11eb-828f-278e7b8efd96.gif)
 
 ## Description
-Webpage allows the user to choose a main dish based on their zip code,
-then compare a recipe and a restaurant to see if the user would like
-to dine in or eat out at a restaurant of their choice.
-The webpage will locally store the user’s recent searches and selections.
+A webpage that prompts the user to enter a food dish and location, and displays a list of recipies and local restaurants that match their dish. The user may then decide if they would like to "Dine in" with a recipe, or "Dash out" at one of the restaurants offering their desired dish. The webpage will locally store the user’s recent searches and selections.
 
 ## User-Story
 ```
@@ -48,13 +45,13 @@ THEN I am presented with a list of recipes and local restaurants that serve the 
 ```
 
 ## Dine-Or-Dash-Story
-Thanks for checking out Dine Or Dash. We created Dine Or Dash as a student portfolio project to solve a need with figuring out if it makes more sense to cook at home or to go out to eat. We know that this can be frustrating and often times you could spend an hour or more trying to figure this out.
+Thanks for checking out Dine Or Dash. We created Dine Or Dash as a student portfolio project to address the dilemma of cooking a meal at home or going out to eat. We know that this can be frustrating and making a decision can be time consuming.
 
-With the "Dine In" option, the webpage show a recipe list with 10 top results based on your search criteria. Once the recipes are expanded, the webpage shows all of the ingredients needed, as well as time needed to cook the dish and the directions on how to make it.
+With the "Dine In" option, the webpage shows a list with 10 the top recipes based on your search criteria. When a recipe is clicked, the webpage shows all of the ingredients needed, as well as time needed to cook the dish and the directions on how to make it.
 
-With the "Dash Out" option, the webpage will show you local top menu items with the main dish of your choice, based on the location criteria that you type in. Additionally, the browser will display the descriptions and prices, without you having to venture onto each restaurant's site.
+With the "Dash Out" option, the webpage will show you top 10 local restaurants with the main dish of your choice, based on the location criteria that you type in. Additionally, the browser will display the descriptions and prices, without you having to venture onto each restaurant's site.
 
-This program also stores your past 5 searches, so you can revisit your favorite recipes or a restaurant to check out later on.
+This program also stores your past 10 searches and past 10 selected recipes, so you can revisit your favorite recipes or a restaurant to check out later on.
 
 
 ## APIs
