@@ -45,13 +45,13 @@ THEN I am presented with a list of recipes and local restaurants that serve the 
 ```
 
 ## Dine-Or-Dash-Story
-Thanks for checking out Dine Or Dash. We created Dine Or Dash as a student portfolio project to address the dilemma of cooking a meal at home or going out to eat. We know that this can be frustrating and making a decision can be time consuming.
+Thanks for checking out Dine Or Dash. We created Dine Or Dash as a student portfolio project to address the dilemma of deciding whether to cook a meal at home or go out to eat. We know this can be frustrating and making a decision can be time consuming.
 
-With the "Dine In" option, the webpage shows a list with 10 the top recipes based on your search criteria. When a recipe is clicked, the webpage shows all of the ingredients needed, as well as time needed to cook the dish and the directions on how to make it.
+With the "Dine In" option, the webpage shows a list of the top 10 recipes based on your search criteria. When a recipe is clicked, the webpage shows all of the ingredients needed, as well as time needed to cook the dish and the directions on how to make it.
 
-With the "Dash Out" option, the webpage will show you top 10 local restaurants with the main dish of your choice, based on the location criteria that you type in. Additionally, the browser will display the descriptions and prices, without you having to venture onto each restaurant's site.
+With the "Dash Out" option, the webpage will show you the top 10 local restaurants offering the main dish of your choice, based on the location criteria that you type in. Additionally, the browser will display the descriptions and prices, without you having to venture onto each restaurant's site.
 
-This program also stores your past 10 searches and past 10 selected recipes, so you can revisit your favorite recipes or a restaurant to check out later on.
+This webpage also stores your past 10 searches and past 10 selected recipes, so you can revisit your favorite recipes or a restaurant to check out later on.
 
 
 ## APIs
